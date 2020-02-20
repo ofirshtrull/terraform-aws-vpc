@@ -14,7 +14,7 @@ variable "aws_region" {
 }
 
 variable "cidr_block" {
-  type        = string
+  type        = number
   default     = 33
   description = "The CIDR block of the VPC."
 }
