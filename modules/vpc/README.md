@@ -12,6 +12,7 @@
 | name | Name to be used on all the resources as identifier | `any` | n/a | yes |
 | num\_of\_private\_subnets | Number of Private subnets | `any` | n/a | yes |
 | num\_of\_public\_subnets | Number of Public subnets | `any` | n/a | yes |
+| region | The region in which to deploy the VPC. | `any` | n/a | yes |
 | shortname | n/a | `any` | n/a | yes |
 | vpc\_cidr\_block | The CIDR block of the VPC. | `any` | n/a | yes |
 | vpc\_enable\_dns\_hostnames | A boolean flag to enable/disable DNS hostnames in the VPC. Defaults to true. | `bool` | `true` | no |

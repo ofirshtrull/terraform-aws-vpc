@@ -12,4 +12,12 @@ No provider.
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| aws\_region | n/a |
+| private\_cidrs | n/a |
+| private\_subnets | The IDs of vpn private subnets |
+| public\_cidrs | n/a |
+| public\_subnets | The IDs of vpn public subnets |
+| vpc\_cidr\_block | n/a |
+| vpc\_id | vpc |
