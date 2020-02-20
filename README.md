@@ -14,10 +14,10 @@ No provider.
 
 | Name | Description |
 |------|-------------|
-| aws\_region | n/a |
-| private\_cidrs | n/a |
-| private\_subnets | The IDs of vpn private subnets |
-| public\_cidrs | n/a |
-| public\_subnets | The IDs of vpn public subnets |
-| vpc\_cidr\_block | n/a |
-| vpc\_id | vpc |
+| aws\_region | The AWS region |
+| private\_cidrs | The VPC private cidrs |
+| private\_subnets\_id | The IDs of vpn private subnets |
+| public\_cidrs | The VPC public cidrs |
+| public\_subnets\_id | The IDs of vpn public subnets |
+| vpc\_cidr\_block | The VPC cidr network |
+| vpc\_id | The VPC id |
